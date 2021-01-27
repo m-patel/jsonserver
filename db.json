@@ -1,327 +1,291 @@
 {
-	"BeaconTypeList": [
-		{
-			"id": 1,
-			"type": "Vehicles"
-		},
-		{
-			"id": 2,
-			"type": "Keys"
-		},
-		{
-			"id": 3,
-			"type": "Parts"
-		}
-	],
+    "BeaconTypeList": [{
+        "id": 1,
+        "type": "Vehicles"
+    }, {
+        "id": 2,
+        "type": "Keys"
+    }, {
+        "id": 3,
+        "type": "Parts"
+    }],
 
-	"BeaconIds": [
-		{
-			"id": 1,
-			"value": "V1"
-		},
-		{
-			"id": 1,
-			"value": "V2"
-		},
-		{
-			"id": 2,
-			"value": "V3"
-		},
-		{
-			"id": 3,
-			"value": "V4"
-		}
-	],
-	"RepairOrders": [
-		{
-			"id": 1,
-			"value": 12345
-		},
-		{
-			"id": 1,
-			"value": 98765
-		},
-		{
-			"id": 2,
-			"value": 67891
-		},
-		{
-			"id": 3,
-			"value": 11123
-		}
-	],
-	"RepairOrderDetail": {
-		"roNumber": 12345,
-		"claimNumber": 123,
-		"vin": 123,
-		"license": 101,
-		"scheduledArrival": "2009-01-02",
-		"arrivalDate": "2009-01-03",
-		"completionDate": "2009-01-01",
-		"vehicleYear": "2008",
-		"vehicleMake": "USA",
-		"vehicleModel": "Toyoto",
-		"vehicleColor": "Green",
-		"name": "sam",
-		"address": "us",
-		"insco": "tem",
-		"contact": "mail",
-		"cusphone": "898998988",
-		"insphone": "9099875447",
-		"email": "sam@g"
-	},
-	"RepairOrdersList": [
-		{
-			"id": "1",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "111",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Red",
-			"vehicleYear": 2009,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "1",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "222",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Blue",
-			"vehicleYear": 2000,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "1",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "111",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Red",
-			"vehicleYear": 2009,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "1",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "222",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Blue",
-			"vehicleYear": 2000,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "1",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "111",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Red",
-			"vehicleYear": 2009,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "1",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "222",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Blue",
-			"vehicleYear": 2000,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "1",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "111",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Red",
-			"vehicleYear": 2009,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "1",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "222",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Blue",
-			"vehicleYear": 2000,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "1",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "111",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Red",
-			"vehicleYear": 2009,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "1",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "222",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Blue",
-			"vehicleYear": 2000,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "2",
-			"arrivedDate": "26 Jan 1996",
-			"ro": "201",
-			"vin": "v123445",
-			"claim": "KREW",
-			"color": "Black",
-			"vehicleYear": 2000,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "2",
-			"arrivedDate": "26 Jan 1996",
-			"ro": "203",
-			"vin": "v123445",
-			"claim": "KREW",
-			"color": "Black",
-			"vehicleYear": 2000,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "3",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "12345",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Green",
-			"vehicleYear": 2000,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "4",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "12345",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Red",
-			"vehicleYear": 2013,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "5",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "12345",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Blue",
-			"vehicleYear": "2016",
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "6",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "12345",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "White",
-			"vehicleYear": 2017,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "7",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "12345",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Orange",
-			"vehicleYear": 2004,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "8",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "12345",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Grey",
-			"vehicleYear": 2012,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "9",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "12345",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Black",
-			"vehicleYear": 2011,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "10",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "12345",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Red",
-			"vehicleYear": 2019,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		},
-		{
-			"id": "11",
-			"arrivedDate": "26 Jan 2020",
-			"ro": "12345",
-			"vin": "V12345",
-			"claim": "C56566",
-			"color": "Red",
-			"vehicleYear": 2020,
-			"carBeacon": "V111",
-			"keyBeacon": "K222",
-			"partBeacon": "P333"
-		}
-	]
+    "BeaconIds": [{
+        "id": 1,
+        "value": "V1"
+    }, {
+        "id": 1,
+        "value": "V2"
+    }, {
+        "id": 2,
+        "value": "V3"
+    }, {
+        "id": 3,
+        "value": "V4"
+    }],
+    "RepairOrders": [{
+        "id": 1,
+        "value": 12345
+    }, {
+        "id": 1,
+        "value": 98765
+    }, {
+        "id": 2,
+        "value": 67891
+    }, {
+        "id": 3,
+        "value": 11123
+    }],
+    "RepairOrderDetail": {
+        "roNumber": 12345,
+        "claimNumber": 123,
+        "vin": 123,
+        "license": 101,
+        "scheduledArrival": "2009-01-02",
+        "arrivalDate": "2009-01-03",
+        "completionDate": "2009-01-01",
+        "vehicleYear": "2008",
+        "vehicleMake": "USA",
+        "vehicleModel": "Toyoto",
+        "vehicleColor": "Green",
+        "name": "sam",
+        "address": "us",
+        "insco": "tem",
+        "contact": "mail",
+        "cusphone": "898998988",
+        "insphone": "9099875447",
+        "email": "sam@g"
+    },
+    "RepairOrdersList": [{
+        "id": "1",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "111",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Red",
+        "vehicleYear": 2009,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "1",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "222",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Blue",
+        "vehicleYear": 2000,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "1",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "111",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Red",
+        "vehicleYear": 2009,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "1",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "222",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Blue",
+        "vehicleYear": 2000,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "1",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "111",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Red",
+        "vehicleYear": 2009,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "1",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "222",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Blue",
+        "vehicleYear": 2000,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "1",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "111",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Red",
+        "vehicleYear": 2009,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "1",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "222",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Blue",
+        "vehicleYear": 2000,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "1",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "111",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Red",
+        "vehicleYear": 2009,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "1",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "222",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Blue",
+        "vehicleYear": 2000,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "2",
+        "arrivedDate": "26 Jan 1996",
+        "ro": "201",
+        "vin": "v123445",
+        "claim": "KREW",
+        "color": "Black",
+        "vehicleYear": 2000,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "2",
+        "arrivedDate": "26 Jan 1996",
+        "ro": "203",
+        "vin": "v123445",
+        "claim": "KREW",
+        "color": "Black",
+        "vehicleYear": 2000,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "3",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "12345",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Green",
+        "vehicleYear": 2000,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "4",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "12345",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Red",
+        "vehicleYear": 2013,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "5",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "12345",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Blue",
+        "vehicleYear": "2016",
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "6",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "12345",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "White",
+        "vehicleYear": 2017,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "7",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "12345",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Orange",
+        "vehicleYear": 2004,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "8",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "12345",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Grey",
+        "vehicleYear": 2012,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "9",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "12345",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Black",
+        "vehicleYear": 2011,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "10",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "12345",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Red",
+        "vehicleYear": 2019,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }, {
+        "id": "11",
+        "arrivedDate": "26 Jan 2020",
+        "ro": "12345",
+        "vin": "V12345",
+        "claim": "C56566",
+        "color": "Red",
+        "vehicleYear": 2020,
+        "carBeacon": "V111",
+        "keyBeacon": "K222",
+        "partBeacon": "P333"
+    }]
 }
